@@ -153,9 +153,9 @@ public class BolsaEmpleo__Registro {
         btnLista.setFont(new Font("Yu Gothic UI Semibold", Font.BOLD, 20));
         btnLista.setBounds(300, 258, 134, 45);
         panelRegistro.add(btnLista);
-
+        
+        // Acciones y funcionalidad de los botones
         listaCandidatosModel = new DefaultListModel<>();
-
         btnEnviar.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 String nombre = textFieldNombre.getText().trim();
